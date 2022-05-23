@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background: linear-gradient(to right, #ef5a,rgba(89, 99, 3, 0.667));
+    min-height: 100px !important;
+    height: auto;
+}
+.navbar-brand{
+    color:rgb(94, 165, 13);
+    font-weight: bold;
+    white-space: pre;
+    font-size: 35px;
+    margin-top: 10px;
+}
+.navbar-brand:hover{
+    color: orange;
+}
+
+.navbar-toggler{
+    color: #fff;
+    border: #fff;
+}
+
+
+
+
+.nav-link{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px 8px;
+}
+.nav-link:hover{
+    color: black;
+}
+
+
+
+/* ----------bannner---------- */
+
+
+
+
+#banner{
+    min-height: 750px;
+    height: auto;
+    position: relative;
+    background: url('img/wp5332805-beauty-sea-wallpapers.jpg');
+    background-position: center;
+
+}
+.contant{
+    background: linear-gradient(to right,rgb(61, 58, 58),rgb(61, 58, 115));
+    min-height: 750px;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    position: absolute;
+}
+
+
+.banner-text{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: justify;
+    margin-left: 10px;
+
+}
+
+.banner-contant{
+    position: absolute;
+}
+
+.banner-img{
+    
+    margin-left: 50px;
+    margin-top: 60px;
+
+}
+.banner-pic{
+   width: 250px;
+   height: auto;
+}
+
+.banner-btn{
+    border: 2px solid orange;
+    border-radius: 2em;
+    padding: 1em;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+    margin-left: 100px;
+    margin-right: 5px;
+}
+.banner-btn:hover{
+    background-color: #333;
+    color: #fff;
+}
+.banner-btn2{
+    border: 2px solid orange;
+    border-radius: 2em;
+    padding: 1em;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.banner-btn2:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+#project{
+    min-height: 400px;
+    height: auto;
+    position: relative;
+    background-color: green;
+}
+.project-area{
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.project-one h3{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.project-one p{
+    color: orange;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.project-img{
+    margin-left: 50px
+}
